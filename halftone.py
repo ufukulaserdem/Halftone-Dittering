@@ -40,4 +40,4 @@ def create_halftone_animation(image_path, output_gif="halftone_animation.gif",
     print(f"Saved animation as {output_gif}")
 
 # Example usage
-create_halftone_animation("example1.jpg", steps=12)
+create_halftone_animation("before.jpg", steps=12) #Change the file path
